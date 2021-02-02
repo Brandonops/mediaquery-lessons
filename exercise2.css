@@ -208,3 +208,14 @@ body {
     }
     
 }
+
+@media print {
+    .navBar, img{
+      display: none;
+    }
+    .blogPosts {
+      width:100%!important;
+      padding:1px!important;
+      margin:0px!important;
+    }
+  }
